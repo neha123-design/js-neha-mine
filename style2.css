@@ -1,0 +1,30 @@
+body{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chess{
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid black;
+
+    
+    
+}
+.chess div{
+    width: 80px;
+    height: 80px;
+    width:calc(100%/8);
+    font-size: 50px;
+    text-shadow: 2px 1px white;
+}
+.a{
+    background-color: black;
+}
+.b{
+    background-color: white;
+}
