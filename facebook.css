@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black ;
+    color: white;
+    height: 200vh;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #242526;
+    height: 60px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+
+}
+.navbar_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    
+}
+
+.searchbar{
+    background-color: #3a3b3c;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 12px;
+    color:white;
+    height: 20px;
+}
+
